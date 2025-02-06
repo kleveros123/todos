@@ -5,27 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Page de Videojuegos</title>
   
-  <!-- Enlace a Bootstrap 5.3 CDN para los estilos predeterminados -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   
-  <!-- Enlace a los estilos personalizados -->
   <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-  <!-- Sección Hero -->
   <header id="hero" class="bg-dark text-white text-center py-5">
     <h1>Explora el Mundo de los Videojuegos</h1>
     <p>Descubre los últimos lanzamientos y noticias del gaming</p>
     <a href="#juegos" class="btn btn-primary">Ver Juegos</a>
   </header>
 
-  <!-- Sección de Juegos Destacados -->
   <section id="juegos" class="container my-5">
     <h2 class="text-center mb-4">Juegos Destacados</h2>
     <div class="carousel-container position-relative">
       <button class="carousel-prev btn btn-dark position-absolute top-50 start-0 translate-middle-y" onclick="moveCarousel(-1)">&#10094;</button>
       <div class="carousel-wrapper d-flex overflow-hidden">
-        <!-- Aquí van las tarjetas de juegos -->
+
         <div class="card me-3" style="width: 18rem;">
           <img src="../resource/fornite.jpeg" class="card-img-top" alt="Juego 1">
           <div class="card-body">
@@ -33,6 +29,7 @@
             <p class="card-text">Construye, dispara y sobrevive en este trepidante battle royale.</p>
           </div>
         </div>
+
         <div class="card me-3" style="width: 18rem;">
           <img src="../resource/kakrot.jpeg" class="card-img-top" alt="Juego 2">
           <div class="card-body">
@@ -40,6 +37,7 @@
             <p class="card-text">Revive la historia de Goku en un RPG lleno de batallas épicas.</p>
           </div>
         </div>
+
         <div class="card me-3" style="width: 18rem;">
           <img src="../resource/minecraft.jpeg" class="card-img-top" alt="Juego 3">
           <div class="card-body">
@@ -47,6 +45,7 @@
             <p class="card-text">Crea, explora y sobrevive en un mundo de bloques sin límites.</p>
           </div>
         </div>
+
         <div class="card me-3" style="width: 18rem;">
           <img src="../resource/smash.jpeg" class="card-img-top" alt="Juego 4">
           <div class="card-body">
@@ -54,6 +53,7 @@
             <p class="card-text">Lucha con los personajes más icónicos en el crossover definitivo.</p>
           </div>
         </div>
+
         <div class="card me-3" style="width: 18rem;">
           <img src="../resource/sparking.jpeg" class="card-img-top" alt="Juego 5">
           <div class="card-body">
@@ -61,6 +61,7 @@
             <p class="card-text">Desata el ki y combate en intensas batallas 3D de Dragon Ball.</p>
           </div>
         </div>
+
         <div class="card me-3" style="width: 18rem;">
           <img src="../resource/spiderman2.jpeg" class="card-img-top" alt="Juego 6">
           <div class="card-body">
@@ -68,13 +69,13 @@
             <p class="card-text">Balancea por Nueva York y enfréntate a nuevos villanos con Peter y Miles.</p>
           </div>
         </div>
+
       </div>
       <button class="carousel-next btn btn-dark position-absolute top-50 end-0 translate-middle-y" onclick="moveCarousel(1)">&#10095;</button>
     </div>
   </section>
 
-  <!-- Sección de Contacto -->
-  <section id="contacto" class="contacto bg-light py-5">
+  <section id="contacto" class="bg-light py-5">
     <div class="container">
       <h2 class="text-center text-dark">Contáctanos</h2>
       <form class="mt-4">
@@ -95,15 +96,12 @@
     </div>
   </section>
 
-  <!-- Footer -->
   <footer class="bg-dark text-white text-center py-3">
     <p>&copy; 2025 Mundo Gamer. Todos los derechos reservados.</p>
   </footer>
 
-  <!-- Enlace a Bootstrap Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   
-  <!-- Enlace a tu script JS personalizado -->
   <script src="scripts.js"></script>
 </body>
 </html>
